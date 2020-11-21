@@ -15,7 +15,7 @@ function mainroutine(hiragana){
 
     input.innerHTML = output.join('');
 
-    twitter.innerHTML = "<a class='c-btn c-btn--twitter' target='_blank' href='https://twitter.com/intent/tweet?hashtags=いろは歌bot&amp;text=意味のある（？）いろは歌を自動生成しました。「"+ output.join('') +"」&amp;url=http://3.131.17.3/irohauta.html'><span><i class='fab fa-twitter'></i>Twitterにシェアをする</span></a>"
+    twitter.innerHTML = "<a class='c-btn c-btn--twitter' target='_blank' href='https://twitter.com/intent/tweet?hashtags=いろは歌bot&amp;text=意味のある（？）いろは歌を自動生成しました。「"+ output.join('') +"」&amp;url=http://3.131.17.3/irohauta/irohauta.html'><span><i class='fab fa-twitter'></i>Twitterにシェアをする</span></a>"
 }
 
 
